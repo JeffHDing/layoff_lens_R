@@ -1,9 +1,10 @@
 library(shiny)
+library(bslib)
 library(ggplot2)
 library(dplyr)
 library(scales)
 
-data <- read.csv("../data/raw/tech_employment_2000_2025.csv")
+data <- read.csv("data/raw/tech_employment_2000_2025.csv")
 data$net_change_pct <- (data$employees_end / data$employees_start * 100) - 100
 
 companies <- sort(unique(data$company))
