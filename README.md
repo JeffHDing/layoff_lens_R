@@ -2,7 +2,7 @@
 
 Shiny R app for investigating hiring/layoff trends.
 
-**Deployed application:** <https://YOUR_APP_URL.posit.cloud/>
+**Deployed application:** <https://019ceee0-2e64-e155-ef1d-be1d5eb8935e.share.connect.posit.cloud/>
 
 ## Install Packages
 
